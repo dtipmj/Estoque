@@ -1,10 +1,3 @@
-Perfeito 👍
-Segue abaixo o **README.md completo**, bem **organizado, profissional e pronto para publicar no GitHub**.
-
-Você pode **copiar e colar direto** no seu repositório.
-
----
-
 ````markdown
 # 📦 Sistema de Gestão de Estoque
 
