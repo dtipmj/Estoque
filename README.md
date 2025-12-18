@@ -182,7 +182,7 @@ sudo npm install -g pm2
 
 ```bash
 git clone https://github.com/dtipmj/Estoque.git
-cd seu-repositorio
+cd Estoque
 ```
 
 ---
