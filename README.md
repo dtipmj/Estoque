@@ -181,7 +181,7 @@ sudo npm install -g pm2
 ### 5️⃣ Clonar o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/dtipmj/Estoque.git)
 cd seu-repositorio
 ```
 
