@@ -109,14 +109,14 @@ O sistema foi projetado para rodar em **VPS Linux (Ubuntu Server)**, utilizando 
 ### 📌 Backend (`.env`)
 
 ```env
-DB_HOST=192.168.10.38
-DB_USER=DTI
-DB_PASSWORD=DTI@2025
+DB_HOST=IPDOSERVIDOR
+DB_USER=USUARIO
+DB_PASSWORD=SENHA
 DB_NAME=estoque_db
 
 PORT=4000
 
-JWT_SECRET=579a5bd96cf8ea9c8a13c865912bd8d22889ae3325d6b1a069b107a2
+JWT_SECRET=JWT-SECRETO
 JWT_EXPIRES_IN=1d
 
 FRONTEND_URL=http://estoque.seudominio.com
@@ -178,8 +178,8 @@ mysql -u root -p
 
 ```sql
 CREATE DATABASE estoque_db;
-CREATE USER 'DTI'@'%' IDENTIFIED BY 'DTI@2025';
-GRANT ALL PRIVILEGES ON estoque_db.* TO 'DTI'@'%';
+CREATE USER 'USER'@'%' IDENTIFIED BY 'SENHA';
+GRANT ALL PRIVILEGES ON estoque_db.* TO 'USER'@'%';
 FLUSH PRIVILEGES;
 ```
 
